@@ -10,3 +10,16 @@ for( let i=0;i<=names.length-1;i++){
 return names;
 }
 writeCards(["Lisa","Kaitlin","Jan"],"surprise");
+
+
+
+function countDown(positiveInt){
+
+while(positiveInt>0){
+console.log(positiveInt);
+positiveInt--;
+
+}
+
+}
+countDown(20);
