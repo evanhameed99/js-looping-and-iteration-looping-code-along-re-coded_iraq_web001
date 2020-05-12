@@ -2,11 +2,11 @@
 
 const names=["evan", "nashwan", "Tony"];
 
-function writeCards(namesArray[],eventName){
+function writeCards(names,eventName){
 
-for (let i =0 ; i <= namesArray.length-1;i++){
+for( let i=0;i<=names.length-1;i++){
 
-  console.log(`Thank you ${namesArray[i]} for the ${eventName} gift );
+  console.log( ` Thank you ${names[i]} for the ${eventName} gift` );
 }
-
 }
+writeCards(["evan","hameed"],"birtday");
