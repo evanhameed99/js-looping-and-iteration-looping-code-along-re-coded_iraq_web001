@@ -2,7 +2,7 @@
 
 const names=["evan", "nashwan", "Tony"];
 
-function writeCards(namesArray,eventName){
+function writeCards(namesArray[],eventName){
 
 for (let i =0 ; i <= namesArray.length-1;i++){
 
